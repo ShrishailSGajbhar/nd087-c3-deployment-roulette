@@ -1,0 +1,20 @@
+kubectl get pods --all-namespaces                                                                           ─╯
+NAMESPACE     NAME                           READY   STATUS    RESTARTS   AGE
+kube-system   aws-node-97clh                 1/1     Running   0          26m
+kube-system   aws-node-zxjkw                 1/1     Running   0          26m
+kube-system   coredns-f47955f89-6xg44        1/1     Running   0          30m
+kube-system   coredns-f47955f89-xvr99        1/1     Running   0          30m
+kube-system   kube-proxy-dqfdw               1/1     Running   0          26m
+kube-system   kube-proxy-w8gnk               1/1     Running   0          26m
+udacity       blue-8475cbdf46-5zgfl          1/1     Running   0          16m
+udacity       blue-8475cbdf46-6vkhg          1/1     Running   0          16m
+udacity       blue-8475cbdf46-xrn5p          1/1     Running   0          16m
+udacity       canary-v1-64598c676f-7jbrf     1/1     Running   0          16m
+udacity       canary-v1-64598c676f-s7jx4     1/1     Running   0          16m
+udacity       canary-v2-5dc9c56687-mnx8h     1/1     Running   0          9m35s
+udacity       canary-v2-5dc9c56687-qqdr7     1/1     Running   0          9m2s
+udacity       canary-v2-5dc9c56687-rqdrx     1/1     Running   0          9m2s
+udacity       canary-v2-5dc9c56687-wtpr4     1/1     Running   0          9m35s
+udacity       hello-world-794458d64d-cnxw2   1/1     Running   0          16m
+udacity       nginx                          1/1     Running   0          7m38s
+
